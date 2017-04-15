@@ -20,13 +20,13 @@ Category                          | Shortcut                          | Descript
                                   | `<Ctrl-Shift-Tab>`                | Go to previous buffer
                                   | `<Ctrl-Down>`                     | Scroll buffer by one line (down)
                                   | `<Ctrl-Up>`                       | Scroll buffer by one line (up)
-**Buffer modes**                  |                                   | 
+**Buffer modes**                  |                                   |
                                   | `<ESC>`                           | Enter the `normal` mode
                                   | `<a>`                             | Enter the `insert` mode (append after cursor)
                                   | `<i>`                             | Enter the `insert` mode (insert before cursor)
                                   | `<Shift-v>`                       | Enter the `visual` mode (line mode)
                                   | `<v>`                             | Enter the `visual` mode (character mode)
-**Buffer editing**                |                                   | 
+**Buffer editing**                |                                   |
                                   | `<Ctrl-a>`                        | Select all
                                   | `<Ctrl-x>`                        | Cut
                                   | `<Ctrl-c>`                        | Copy
@@ -39,7 +39,7 @@ Category                          | Shortcut                          | Descript
                                   | `<Ctrl-n>`                        | Start multiple-selection editing with the text under the cursor. Each consecutive press will highlight the next occurrence of selected text. After all occurrences have been marked, do the text editing with usual commands (`c`, `s`, `i`, `a`, etc.).
                                   | `<Ctrl-p>`                        | When in multiple-selection editing mode, one may press this key combination to remove the current occurrence and go back to the previous one.
                                   | `<Ctrl-x>`                        | When in multiple-selection editing mode, one may press this key combination to skip the current occurrence and go to the following one.
-**Window management**             |                                   | 
+**Window management**             |                                   |
                                   | `<Ctrl-w>c`                       | Close current window
                                   | `<Ctrl-w><Arrow>`                 | Navigate through windows using `<left>`, `<right>`, `<up>` & `<down>` arrows
                                   | `<Ctrl-w>s`                       | Create new horizontal window split
@@ -68,12 +68,12 @@ Category                          | Shortcut                          | Descript
                                   | `<Ctrl-\>i`                       | Find all files that include the filename under the cursor
                                   | `<Ctrl-\>t`                       | Find all instances of the text under the cursor
                                   | `<Ctrl-\>e`                       | Search for the word under the cursor using `egrep`
-**Source code static analysis**   |                                   | 
+**Source code static analysis**   |                                   |
                                   | `:YavideAnalyzerCppCheckBuf`      | Runs the `cppcheck` static analysis on current buffer
                                   | `:YavideAnalyzerCppCheck`         | Runs the `cppcheck` static analysis on whole project
-**Build management**              |                                   | 
+**Build management**              |                                   |
                                   | `<F7>`                            | Build project.
-**SCM Git client**                |                                   | 
+**SCM Git client**                |                                   |
                                   | `:Gstatus`                        | Runs `git status`
                                   | `:Gcommit`                        | Runs `git commit`
                                   | `:Gmerge`                         | Runs `git merge`
@@ -83,7 +83,7 @@ Category                          | Shortcut                          | Descript
                                   | `:Glog`                           | Runs `git log`
                                   | `:Gdiff`                          | Runs `git diff`
                                   | `:Gblame`                         | Runs `git blame`
-**Misc**                          |                                   | 
+**Misc**                          |                                   |
                                   | `:YavideLayoutRefresh`            | Refresh the layout (opens up project explorer, class browser and clears up the `quickfix` window)
                                   | `:sh`                             | Enter the `bash` shell
 
