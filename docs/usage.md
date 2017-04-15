@@ -2,6 +2,7 @@
 * [Usage](#usage-overview)
 
 # Usage overview
+
 Category                          | Shortcut                          | Description
 --------------------------------- | --------------------------------- | ---------------------------------
 |**Project management**            |                                   |
